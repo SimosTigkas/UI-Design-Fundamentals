@@ -67,7 +67,7 @@ input[type=submit] {
     font-size: 1em;
     background: hsl(45, 70%, 65%);
     color: #6900F3;
-    border: none;
+    border: white 1px solid;
     font-weight: bold;
 }
 
