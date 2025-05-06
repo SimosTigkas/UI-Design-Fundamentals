@@ -1,1 +1,0 @@
-Alignment in UI design is the process of ensuring that every element is positioned correctly in relation to other elements.
