@@ -49,8 +49,7 @@ span {
 }
 
 .card {
-    background: #2C3031;
-    /* color: white; */
+    background: hsl(394, 10%, 18%);
     padding: 1em;
     margin: 2em;
 }
