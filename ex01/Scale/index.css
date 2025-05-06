@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-    background: #EBF1F3;
+    background: #f2f3eb;
     height: 100vh;
 }
 
@@ -57,3 +57,17 @@ p.desc {
 }
 
 /* Overwrites */
+
+.color-container {
+    grid-template-columns: repeat(3, auto);
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+p.code {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
