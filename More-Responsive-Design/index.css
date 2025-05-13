@@ -132,6 +132,47 @@ ul {
     }
 }
 
+ @media (min-width: 850px) {  
+    .wrapper {
+        padding: 2em;
+    }
+}
+
+@media (min-width: 1000px) {     
+    .hero-left {
+        text-align: left;
+        width: 30%;
+        /* margin-left: 4em; */
+    }
+    h1, .hero-left p {
+        width: 100%;
+    }
+    img {
+        top: 0;
+        right: 0;
+        width: 55%;
+        clip-path: none;
+    }
+    nav ul li a {
+        background: hsl(180, 100%, 35%);
+    }
+    h1 {
+        font-size: 3em;
+    }
+    ul.testimonials {
+        display: flex;
+    }
+    ul.testimonials  li {
+        border: 2px solid hsl(180, 100%, 35%);
+        border-radius: 1em;
+        margin-right: 1em;
+     }
+     ul.testimonials li:nth-of-type(3) {
+        margin-right: 0;
+     }
+    
+}
+
 .width-container {
     display: none;
 }
