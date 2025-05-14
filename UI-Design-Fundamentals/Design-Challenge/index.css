@@ -51,6 +51,7 @@ body {
 
 .content {
     margin: 1em;
+    padding: .3em;
 }
 
 p.date {
