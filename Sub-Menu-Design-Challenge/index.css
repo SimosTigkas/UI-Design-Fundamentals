@@ -63,7 +63,7 @@ li a {
 }
 
 .active a {
-    color: #008AF8;
+    color: hsl(207, 100%, 49%);
     font-weight: bold;
 }
 
@@ -80,25 +80,34 @@ li a:hover {
 /* My fixes here */
 
 .submenu {
-    margin-left: 1.5em;
-    display:grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-areas: 
-        "a a a"
-        "b";
-}
-
-.submenu ul li a:hover {
-    background: #2E363D;
+    padding: 0 1em;
 }
 
 .submenu ul {
-    grid-area: b;
+    margin: 1em 0 1em;
 }
+
+.submenu a {
+    font-weight: normal;
+    color: #7B8994;
+    background: none;
+    font-weight: bold;
+}
+
+.submenu a:hover {
+    background: none;
+}
+
+li a {
+    font-weight: bold;
+    background: #282E33;
+    margin-bottom: 2px;
+}
+
 .submenu p {
-    margin-right: 1em;
-    margin-left: 0em;
-    grid-area: a;
+    margin: 1em 0em 1em 1em;
+    color: #707D88;
+    line-height: 1.4em;
 }
 
 @media (min-width: 600px) {
@@ -150,12 +159,30 @@ li a:hover {
         position: absolute;
         top: 3.3em;
         right: 0;
-        background: white;
+        background: hsl(207, 13%, 23%);
         padding: 1em 2em;
         box-shadow: 10px 10px 15px rgba(0,0,0,0.07);
     }
     
     /* My fixes here */
 
+    .submenu ul{
+        margin: 1.5em 0 0;
+        display: block;
+    }
     
+    .submenu li a {
+        padding: 0 0 .5em 0;
+        font-weight: bold;
+        color: hsl(206, 23%, 81%);
+        font-size: .7em;
+        text-transform: uppercase;
+    }
+
+    .submenu p {
+        min-width: 12em;
+        padding-left: 1em;
+        border-left: 1px solid hsl(206, 10%, 53%);
+        color: hsl(206, 10%, 73%)
+    }
 }
