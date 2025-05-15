@@ -32,7 +32,10 @@ nav {
     right: 0;
     height: 100vh;
     background: hsl(207, 13%, 23%);
-    width: 36%;
+    width: 66%;
+    transform: translateX(50%);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
 }
 
 .exit {
@@ -70,6 +73,12 @@ li a:hover {
 
 }
 
+.open-nav {
+    visibility: unset;
+    opacity: 1;
+    transform: translateX(0);
+}
+
 @media (min-width: 700px) {
     .open, .exit {
         display: none;
@@ -80,6 +89,8 @@ li a:hover {
         background: none;
         position: unset;
         height: auto;
+        opacity: 1;
+        transform: translateX(0);
     }
 
     ul {
