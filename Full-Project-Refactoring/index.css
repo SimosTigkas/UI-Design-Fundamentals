@@ -22,6 +22,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.2em;
 }
 
 header svg {
@@ -58,12 +59,13 @@ a.cta-btn {
 
 nav {
     /* line-height: 2.4em; */
+    padding: 1em;
     position: fixed;
     background: #576483;
     height: 100vh;
     left: 0;
     top: 0;
-    width: 80%;
+    width: 40%;
     visibility: hidden;
     transform: translateX(-50%);
     opacity: 0;
@@ -82,12 +84,13 @@ nav svg {
 
 nav ul li a {
     display: block;
-    padding: .2em;
     font-size: 1.2em;
 }
 
 .selected {
     background: #FC85AE;
+    border-radius: 2px;
+    padding: .2em .4em;
 }
 
 .open-nav {
@@ -107,6 +110,7 @@ h1 {
 .panel {
     background: hsl(223, 25%, 40%);
     border-radius: .3em;
+
 }
 
 h3 {
@@ -136,7 +140,7 @@ ul.secondary li p {
 }
 
 main {
-
+    padding: 1em;
     background: #39445F;
 }
 
@@ -150,4 +154,12 @@ a {
 
 p {
     line-height: 1.4em;
+}
+
+header {
+    padding: .6em;
+}
+
+ul.data {
+    padding: .6em;
 }
