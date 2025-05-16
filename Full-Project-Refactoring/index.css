@@ -10,10 +10,10 @@ html, body {
 }
 
 body {
-    background: hsl(234, 59%, 72%);
+    background: #39445F;
     color: #A5B2D3;
     padding: .5em;
-    font-family: 'Nunito' sans-serif;
+    font-family: 'Nunito', sans-serif;
     height: 100vh;
     text-align:center;
 }
@@ -46,10 +46,10 @@ a.logo {
 a.cta-btn {
     margin-left: auto;
     background: #FC85AE;
-    padding: 1em;
+    padding: .2em .4em;
     display: inline-block;
     border-radius: 2em;
-    font-size: .8em;
+    font-size: .9em;
     color: #303A52;
     font-weight: bold;
 }
@@ -57,7 +57,7 @@ a.cta-btn {
 /* Navigation */
 
 nav {
-    line-height: 3.4em;
+    /* line-height: 2.4em; */
     position: fixed;
     background: #576483;
     height: 100vh;
@@ -68,7 +68,7 @@ nav {
     transform: translateX(-50%);
     opacity: 0;
     transition: all .3s;
-    text-align: center;
+    text-align: left;
 }
 
 nav p {
@@ -83,7 +83,7 @@ nav svg {
 nav ul li a {
     display: block;
     padding: .2em;
-    font-size: 1.8em;
+    font-size: 1.2em;
 }
 
 .selected {
@@ -118,7 +118,7 @@ h3 {
 ul.data li p {
     color: white;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 2.2em;
     margin: .3em 0 1em;
 }
 
@@ -132,14 +132,22 @@ ul.secondary {
 }
 
 ul.secondary li p {
-    font-size: 1.2em;
+    font-size: 2.2em;
 }
 
 main {
-    border: 1px solid white;
+
     background: #39445F;
 }
 
 nav {
     background: hsl(223, 25%, 20%);
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.4em;
 }
