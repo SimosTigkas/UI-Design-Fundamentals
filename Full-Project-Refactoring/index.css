@@ -109,7 +109,6 @@ h1 {
 .panel {
     background: hsl(223, 25%, 40%);
     border-radius: .3em;
-
 }
 
 h3 {
@@ -132,6 +131,7 @@ ul.data li:last-child p {
 ul.secondary {
     margin-top: 2em;
     background: hsl(223, 25%, 40%);
+    border-radius: .3em;
 }
 
 ul.secondary li p {
@@ -169,7 +169,7 @@ ul.data {
 
 /* Large Phones */
 
-@media (min-width: 650px) {
+@media (min-width: 550px) {
     body {
         padding: 1.2em;
         text-align: left;
@@ -187,16 +187,73 @@ ul.data {
 
 }
 
-@media (min-width: 850px) {
+@media (min-width: 700px) {
     ul.data {
         justify-content: left;
     }
 
+    .panel ul.data li {
+        width: 33%;
+    }
+
+    .panel ul.data li p {
+        margin: 0;
+    }
+}
+
+@media (min-width: 800px) {
     ul.data li {
-        width: 33%; /* flex: 0 0 33%; -> flex-grow: 0; flex-shrink: 0; flex-basis: 33%; can be used only in a flex container*/
+        width: 33%;
     }
 
     ul.data li p {
         margin: 0;
+    }
+
+    nav {
+        width: 30%;
+        height: 65%;
+    }
+}
+
+@media (min-width: 900px) {
+    nav {
+        visibility: unset;
+        background: none;
+        position: unset;
+        height: auto;
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .open, .inner-wrapper{
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        margin-left: 0.7em;
+    }
+
+    nav ul li a {
+        background: #FC85AE;
+        border-radius: .3em;
+        margin-right: .5em;
+        width: 8em;
+        text-align: center;
+    }
+
+
+    .selected {
+        background: none;
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        margin-top: 0em;
     }
 }
