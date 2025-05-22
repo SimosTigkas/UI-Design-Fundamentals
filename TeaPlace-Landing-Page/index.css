@@ -147,3 +147,95 @@ p {
     z-index: -1;
     opacity: 0.1;
 }
+
+@media (min-width: 650px) {
+    body {
+        font-size: 18px;
+    }
+
+    main h1 {
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+    }
+    .cta {
+        padding: .7em 1.2em;
+    }
+    .outline {
+        margin-left: 1em;
+    }
+}
+
+@media (min-width: 800px) {
+   .menu, .exit {
+        display: none;
+    }
+
+    main {
+        justify-items: left;
+    }
+
+    ul {
+        display: flex;
+        background: none;
+        height: unset;
+        position: unset;
+        text-transform: uppercase;
+        visibility: unset;
+        opacity: 1;
+        width: 52%;
+    }
+
+    ul li a {
+        font-size: .9em;
+        padding: 0 .5em;
+    }
+
+    .left-col {
+        width: 60%;
+        background: #47946E;
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        z-index: -1;
+    }
+
+    .plant {
+        width: 43%;
+        position: absolute;
+        right: 4%;
+        bottom: -3%;
+    }
+
+    .fern {
+        top: 26%;
+    }
+
+    .outline {
+        border: 2px solid white;
+    }
+
+    p {
+        margin-left: 0;
+        text-align: left;
+        width: 60%;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+    }
+    .cta {
+        padding: .7em 1.2em;
+    }
+    .outline {
+        margin-left: 1em;
+    }
+}
