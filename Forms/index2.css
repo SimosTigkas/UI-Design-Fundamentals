@@ -8,3 +8,15 @@ label.left-label {
 .mt-extra {
     margin-top: 2em;
 }
+
+label {
+    display: unset;
+}
+
+h2 {
+    margin-bottom: 0.5em;
+}
+
+.extra-height {
+    min-height: 150px;
+}
