@@ -77,6 +77,11 @@ li img {
     border-radius: 50%;
 }
 
+.cta:hover {
+    background: hsl(154, 72%, 31%);
+    transition: background 1s ease-in-out;
+}
+
 @media (min-width: 600px) {
     .phone {
         width: 300px;
