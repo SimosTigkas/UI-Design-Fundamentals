@@ -163,3 +163,31 @@ ul.featured-cabins li {
     color: white;
     font-weight: bold;
 }
+
+.feature-container {
+    background: #1A1A1A;
+    color: white;
+    /* padding: 3em 0; */
+}
+
+/* 
+    LATER FOR DESKTOP DESIGN
+.feature-container li {
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+
+} */
+
+ul.features {
+    margin: 3em auto;
+    width: 70%;
+}
+
+ul.features li img {
+    width: 50px;
+}
+
+ul.features li p {
+    color: #CCCCCC;
+}
