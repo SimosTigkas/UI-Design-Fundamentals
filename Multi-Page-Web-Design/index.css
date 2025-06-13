@@ -360,4 +360,8 @@ p.test-auth {
     .left {
         padding: 0em 3em;
     }
+
+    .fern {
+        width: 30%;
+    }
 }
